@@ -63,6 +63,22 @@
            ],
            "required":true
         },
+                {
+           "id":"EducationLevel",
+           "description":"Education level of the person",
+           "labelName":{
+           "eng":"EducationLevel",
+           "fra":"niveau"
+           },
+           "controlType":"dropdown",
+           "inputRequired":true,
+           "fieldType":"dynamic",
+           "type":"simpleType",
+           "validators":[
+
+           ],
+           "required":true
+        },      
         {
            "id":"residenceStatus",
            "description":"Residence status",
